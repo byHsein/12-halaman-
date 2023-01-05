@@ -15,7 +15,7 @@
     height: 24px;
     left: 41.12%;
     right: 58.25%;
-    top: calc(50% - 65px/2 - 95px);
+    top: calc(50% - 110px/2 - 110px);
 
 
 }
@@ -26,7 +26,7 @@
     opacity: 0.5;
     left: 58.2%;
     right: 41.18%;
-    top: calc(50% - 65px/2 - 95px);
+    top: calc(50% - 110px/2 - 110px);
 
 }
 
@@ -65,7 +65,7 @@
     content:"";
     background:url("icon home/caret-down.png") no-repeat;
     width:24px;
-    height:24px;
+    height:30px;
     margin-top:10px;
     position:absolute;
     left:20px;
@@ -81,7 +81,7 @@
 .body-content{
     padding-bottom:43px;
     padding-left:50px;
-    padding-right:10px
+    padding-right:55px
     
     
 }
