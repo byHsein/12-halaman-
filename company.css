@@ -1,0 +1,17 @@
+@font-face {
+    font-family: verdana;
+    src: url(vedana.tff);
+  }
+.verdana{
+    font-family:verdana;
+}
+.pappins{
+    font-family:'pappins',sans-serif;
+}
+.orange-custom{
+    color: #FF3D00;
+}
+.nav-custom{
+    display:flex;
+    justify-content:space-between!important;
+}

@@ -1,0 +1,127 @@
+@font-face {
+    font-family: verdana;
+    src: url(vedana.tff);
+  }
+.verdana{
+    font-family:verdana;
+}
+.pappins{
+    font-family:'pappins',sans-serif;
+}
+.owl-nav .owl-prev{
+    font-size:40px !important;
+    opacity: 0.5;
+    position: absolute;
+    height: 24px;
+    left: 41.12%;
+    right: 58.25%;
+    top: calc(50% - 65px/2 - 95px);
+
+
+}
+.owl-nav .owl-next{
+    font-size:40px !important;
+    position: absolute;
+    height: 24px;
+    opacity: 0.5;
+    left: 58.2%;
+    right: 41.18%;
+    top: calc(50% - 65px/2 - 95px);
+
+}
+
+.content{
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.219624);
+    margin-top:20px;
+    max-width:480px;
+    border-radius:12px;
+    background:#fff;
+}
+.header{
+    font-family:'pappins',sans-serif;
+    font-size:20px;
+    min-height:79px;
+    font-weight: 700;
+    line-height:30px;
+    padding:24px 0 20px 50px;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    position:relative;
+
+}
+.header::before{
+    display:block;
+    content:"";
+    background:url("icon home/Caret-r.png") no-repeat;
+    width:24px;
+    height:24px;
+    margin-top:5px;
+    position:absolute;
+    left:30px;
+}
+.header.active::before{
+    display:block;
+    content:"";
+    background:url("icon home/caret-down.png") no-repeat;
+    width:24px;
+    height:24px;
+    margin-top:10px;
+    position:absolute;
+    left:20px;
+
+}
+.header.active{
+    color: #FF3D00;
+}
+.body{
+    max-height:0;
+    overflow:hidden;
+}
+.body-content{
+    padding-bottom:43px;
+    padding-left:50px;
+    padding-right:10px
+    
+    
+}
+.h-custom{
+    height:610px;
+    padding-right:5px;
+    width:100%;
+    position:relative;
+    background-color:#fff;
+    z-index:30;
+    margin:0 auto;
+    margin-top:12px;
+    border-radius:12px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.14);
+}
+.blue-custom{
+    background-color: #3B00AD;
+}
+.orange-custom{
+    background-color: #FF3D00;
+}
+@media screen and (min-width: 450px){
+    .h-custom{
+        height:490px;
+
+    }
+}
+@media screen and (min-width: 640px){
+    .h-custom{
+        height:450px
+    }
+}
+@media screen and (min-width: 768px){
+    .h-custom{
+        height:450px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .h-custom{
+        height:380px;
+        max-width:1106px;
+    }
+}
