@@ -1,0 +1,10 @@
+@font-face {
+    font-family: verdana;
+    src: url(vedana.tff);
+  }
+.verdana{
+    font-family:verdana;
+}
+.pappins{
+    font-family:'pappins',sans-serif;
+}
