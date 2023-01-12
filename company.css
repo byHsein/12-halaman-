@@ -69,6 +69,7 @@
 .blue-custom{
     background-color:#3B00AD;
 }
+
 @media screen and (min-width: 1024px){
     .header{
         padding:24px 0 10px 115px;
