@@ -108,6 +108,25 @@
     padding-bottom:43px;
     padding-left:50px;
     padding-right:55px
-    
-    
+}
+.owl-nav .owl-prev{
+    font-size:40px !important;
+    opacity: 0.5;
+    position: absolute;
+    height: 24px;
+    left: 10.12%;
+    right: 60.25%;
+    top: calc(50% - 150px/2 - 94px);
+
+
+}
+.owl-nav .owl-next{
+    font-size:40px !important;
+    position: absolute;
+    height: 24px;
+    opacity: 0.5;
+    left: 60.25%;
+    right: 10.12%;
+    top: calc(50% - 150px/2 - 94px);
+
 }
