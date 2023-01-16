@@ -1,0 +1,40 @@
+.h-custom{
+    height:610px;
+    padding-right:5px;
+    width:100%;
+    position:relative;
+    background-color:#fff;
+    z-index:30;
+    margin:0 auto;
+    margin-top:200px;
+    border-radius:12px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.14);
+}
+.blue-custom{
+    background-color: #3B00AD;
+}
+.orange-custom{
+    background-color: #FF3D00;
+}
+@media screen and (min-width: 450px){
+    .h-custom{
+        height:490px;
+
+    }
+}
+@media screen and (min-width: 640px){
+    .h-custom{
+        height:450px
+    }
+}
+@media screen and (min-width: 768px){
+    .h-custom{
+        height:450px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .h-custom{
+        height:380px;
+        max-width:1106px;
+    }
+}
