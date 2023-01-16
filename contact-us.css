@@ -1,0 +1,12 @@
+.shadow-custom{
+    box-shadow:none;
+}
+.shadow-custom::hover{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.0969733);
+}
+iframe{
+    background: linear-gradient(0deg, #000D30, #000D30);
+    background-blend-mode: color, normal;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.083042);
+    
+}
