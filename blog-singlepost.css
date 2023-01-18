@@ -1,0 +1,13 @@
+.white-custom{
+    background-color: #F9FAFF;
+}
+.white-custom::hover{
+    background-color: #3B00AD;
+}
+.black{
+    color: rgba(31, 31, 31, 0.801956) !important;
+
+}
+.black::hover{
+    color:#ffff !important;
+}
