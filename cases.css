@@ -1,0 +1,38 @@
+.contain{
+    height:404px;
+    border-radius:4px;
+    position:relative;
+    background-color:#fff;
+}
+.overlay{
+    position:absolute;
+    opacity:0;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    transition:opacity 0.1s ease-in-out;
+    border-radius:4px;
+    cursor:pointer;
+}
+.content{
+    position:relative;
+    width:476px;
+    top:50%;
+    left:50%;
+    z-index:2;
+    text-align:center;
+    transform: translate(-50%, -50%)
+}
+.contain:hover .overlay{
+    opacity:1;
+    background-color:#F9FAFF;
+    border-radius:4px;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.102136), 0px 2px 2px rgba(0, 0, 0, 0.1);
+
+}
+.contain:hover img{
+    width:276.17px;
+    height:184px;
+    z-index:1;
+}
