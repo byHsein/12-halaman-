@@ -8,6 +8,12 @@
     color: rgba(31, 31, 31, 0.801956) !important;
 
 }
+.orange-custom{
+    background-color:#FF3D00;
+}
+.text-custom{
+    color:#FF3D00;
+}
 .black::hover{
     color:#ffff !important;
 }

@@ -58,6 +58,15 @@
     padding-left:25px;
     
 }
+.blue-custom{
+    background-color:#3B00AD;
+}
+.text-custom{
+    color: #FF3D00;
+}
+.orange-custom{
+    background-color: #FF3D00;
+}
 ul li{
     display:inline-block;
     position:relative;

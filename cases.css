@@ -67,3 +67,12 @@ ul li a:hover{
 ul li:hover ul.dropdown {
     display:block;
 }
+.orange-custom{
+    background-color:#FF3D00;
+}
+.blue-custom{
+    background-color:#3B00AD;
+}
+.text-custom{
+    color:#FF3D00;
+}
